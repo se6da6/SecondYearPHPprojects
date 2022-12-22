@@ -1,0 +1,37 @@
+body 
+{
+	background-color:salmon;
+	font-size:2em;
+	margin-top:1.5em;
+}
+.flexcontainer
+{
+	display:flex; 
+	flex-direction:row;
+	flex-wrap:wrap; 
+    padding-top:0.3em;
+	margin-left:2em;
+    margin-right:2em; 
+	background-color:navy;
+}
+.button-container
+{
+	border: solid 1px green;
+  	display: flex;
+  	position: absolute;
+  	left: 20px;
+  	top: 50px;
+
+}
+.flexitem
+{
+	background-color:skyblue;
+	border:0.1em solid black;
+	margin-bottom:2em;
+	flex:1; 
+}	
+.bigbox    
+{
+  flex:2.75;   
+}	 
+	 

@@ -1,0 +1,147 @@
+.dropBtn {
+  background-color: #69abad;
+  color: white;
+  justify-content: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-shadow: black;
+  padding:4px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  box-shadow: 2.6px 3px rgb(0, 0, 0,29%);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #69abad;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  width:auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width:90px;
+  height:90px;
+  margin-top:5px;
+}
+
+.dropdown-content select:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #A8DADC;
+}
+
+label, textarea {
+  display: block;
+}
+
+.centerDiv
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom:30px;
+}
+
+
+.textFile
+{
+  display:flex;
+  justify-content: center;
+ 
+}
+#textArea
+{
+  box-shadow: 4px 4px rgb(0, 0, 0,35%);
+  width:55%;
+  height:200px;
+}
+
+button{
+  margin-left:5px;
+  margin-right:5px;
+  box-shadow: 2px 2px rgb(0, 0, 0,16%);
+}
+
+body{
+  background-color: #457B9D;
+}
+
+.centerHeader
+{
+  text-align: center;
+  background-color: #4073b9;
+  box-shadow: 3px 6px #101d302c;
+
+  padding:2px;
+  margin-bottom:25px;
+}
+
+
+h1{
+  font-size: 48px;
+}
+h2{
+  font-size: medium;
+}
+
+.dropdown{
+  background-color: #69abad;
+  color: white;
+  padding: 16px;
+  margin:15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+
+  text-align: center;
+  align-items: center;
+}
+
+.dropdown:hover
+{
+  background-color:#A8DADC;
+  box-shadow: 1px 2px rbg(0,0,0,22%);
+
+ 
+
+}
+.dropdown-content
+{
+  min-width: 200px;
+  min-height:55px;
+
+  margin:10px;
+}
+
+.dropdown:hover  +  .dropdown-content
+{
+  box-shadow: 1px 2px rbg(0,0,0,22%);
+  background-color: rgb(134, 129, 119);
+}
+
+.textBoxStyles
+{
+  height:30px;
+}
+
+p 
+{
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+/*// http://localhost/DadakSedaCodingAsst/asstmain.php*/
+body {
+    background-color:#FFFCE7;
+    font: 1.2em;
+    color:#8583C2;
+}
+
+.input [type = "text"].DataPair {
+    font:1.2em;
+    color:#F2C6C2
+}
+
+
+button {
+    margin-top: 2em;
+    display: block;
+    border: 0;
+    
+}
+
+table, th, td {
+    border: 1px solid rgb(90, 27, 27);
+    color:#BF93E0;
+    background-color: #FEE7F9;
+    
+  }
+ footer{
+    color:#F991C6;
+
+ }
+a:link{
+    color:#F991C6;
+}
